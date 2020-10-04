@@ -2,6 +2,7 @@ console.log("HI");
 
 // Creating function for Data plotting 
 function getPlot(id) {
+    
     // getting data from the json file
     d3.json("samples.json").then((data)=> {
         console.log(data)
